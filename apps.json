@@ -2,14 +2,15 @@
   "name": "Drakonis96",
   "identifier": "com.drakonis96.source",
   "subtitle": "All of Drakonis96's apps in one place.",
-  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr and anything new that lands here.",
+  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr, ScanKit and anything new that lands here.",
   "iconURL": "https://drakonis96.github.io/drakonis96repo/repologo.png",
   "website": "https://github.com/Drakonis96/drakonis96repo",
   "tintColor": "5E5CE6",
   "featuredApps": [
     "com.drakonis96.mytrackpad",
     "com.tesstats.app",
-    "com.drakonis96.nautilarr"
+    "com.drakonis96.nautilarr",
+    "com.scankit.ScanKit"
   ],
   "apps": [
     {
@@ -257,6 +258,36 @@
       "versionDescription": "Nautilarr 0.1.8",
       "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.8/Nautilarr-0.1.8.ipa",
       "size": 18587525
+    },
+    {
+      "name": "ScanKit",
+      "bundleIdentifier": "com.scankit.ScanKit",
+      "developerName": "Drakonis96",
+      "subtitle": "Scan, process, OCR and organize documents — all on-device.",
+      "localizedDescription": "ScanKit is a native iOS document scanner built for power users who want full control over capturing, processing and exporting their documents. Everything runs on-device; nothing leaves your iPhone or iPad unless you turn on iCloud sync.\n\n• Smart camera: live edge detection, auto-capture, manual corner adjustment with a zoom loupe, torch, zoom, framing grid, batch/continuous scanning and a book/pair mode.\n• Powerful processing: color / grayscale / black & white (adaptive binarization) / auto modes, background whitening, deskew, perspective correction, full manual adjustments and reusable presets with live preview.\n• On-device OCR (Vision): searchable PDFs, copy and extract text, search by document content, Spotlight indexing.\n• Flexible export: searchable + password-protected PDF, JPEG / PNG / TIFF, plain text, batch file naming, and the native share sheet (AirDrop, Mail, Files, Print, Save to Photos).\n• Organized library: nested folders with colors and emoji, tags, favorites, recents, trash, grid/list views, sorting, search and bulk operations.\n• Adaptive design for iPhone and iPad, with Siri/Shortcuts and Home Screen quick actions.",
+      "iconURL": "https://raw.githubusercontent.com/Drakonis96/scankit/main/logo.png",
+      "tintColor": "#2679FF",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "date": "2026-06-06",
+          "localizedDescription": "First public release of ScanKit.\n\n• Full document scanner with live edge detection, auto-capture and manual corner adjustment.\n• On-device image processing, presets, OCR and searchable PDF export.\n• Folder-based library with tags, favorites, search and bulk actions.\n• iPhone and iPad layouts, Siri/Shortcuts and Home Screen quick actions.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.0/ScanKit.ipa",
+          "size": 2792647,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "ScanKit uses the camera to scan and capture your documents.",
+          "NSPhotoLibraryUsageDescription": "ScanKit imports images from your photo library to turn them into documents.",
+          "NSPhotoLibraryAddUsageDescription": "ScanKit saves exported scans to your photo library."
+        }
+      }
     }
   ],
   "news": []
