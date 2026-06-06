@@ -26,18 +26,3 @@ Or tap to add directly:
 | **MyTrackpad** | Turn your iPhone/iPad into a wireless trackpad & keyboard for your Mac. | [Drakonis96/mytrackpad](https://github.com/Drakonis96/mytrackpad) |
 | **Tesstats** | Read-only Tesla stats from your own self-hosted TeslaMate. | [Drakonis96/tesstats](https://github.com/Drakonis96/tesstats) |
 | **Nautilarr** | Client for managing self-hosted media services from their REST APIs. | [Drakonis96/nautilarr](https://github.com/Drakonis96/nautilarr) |
-
-## How it's built
-
-Each app lives in its own repo, which stays the single source of truth for its
-releases, icons and screenshots. [`build.py`](build.py) fetches each app's
-upstream source and merges their apps into this combined [`apps.json`](apps.json).
-
-To regenerate after an app publishes a new version:
-
-```bash
-python3 build.py
-git commit -am "Update apps.json" && git push
-```
-
-GitHub Pages serves the repo root, so `apps.json` is always live at the URL above.
