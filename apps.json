@@ -271,6 +271,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.5",
+          "buildVersion": "6",
+          "date": "2026-06-06",
+          "localizedDescription": "Interface polish + multi-select.\n\n• Select multiple documents right from the main library (and Recents/Favorites): a new Select button, Select All, and a count in the title, then move / tag / export / combine / delete in bulk.\n• Fixed icons (the OCR text panel no longer uses a chat-bubble) and more consistent spacing.\n• Verified the page-preview edit controls (rotate, color, size, OCR, process, delete) work with progress feedback.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.5/ScanKit.ipa",
+          "size": 2883657,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.4",
           "buildVersion": "5",
           "date": "2026-06-06",
