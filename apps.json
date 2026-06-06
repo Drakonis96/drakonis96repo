@@ -271,6 +271,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.1",
+          "buildVersion": "2",
+          "date": "2026-06-06",
+          "localizedDescription": "Bug fixes from device testing.\n\n• Fixed scans coming out blank/white and rotated to landscape (camera orientation is now normalized before perspective correction).\n• Fixed black & white / auto pages being blown out to pure white (rewrote the binarization).\n• Page editor: clearer multi-select with Select All, rotate left/right on selected pages, and a quick color / grayscale / B&W switch per page or selection.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.1/ScanKit.ipa",
+          "size": 2802335,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.0",
           "buildVersion": "1",
           "date": "2026-06-06",
