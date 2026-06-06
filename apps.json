@@ -1,0 +1,254 @@
+{
+  "name": "Drakonis96",
+  "identifier": "com.drakonis96.source",
+  "subtitle": "All of Drakonis96's apps in one place.",
+  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr and anything new that lands here.",
+  "iconURL": "https://drakonis96.github.io/drakonis96repo/repologo.png",
+  "website": "https://github.com/Drakonis96/drakonis96repo",
+  "tintColor": "5E5CE6",
+  "featuredApps": [
+    "com.drakonis96.mytrackpad",
+    "com.tesstats.app",
+    "com.drakonis96.nautilarr"
+  ],
+  "apps": [
+    {
+      "name": "MyTrackpad",
+      "bundleIdentifier": "com.drakonis96.mytrackpad",
+      "developerName": "Drakonis96",
+      "subtitle": "Wireless trackpad & keyboard for your Mac.",
+      "localizedDescription": "MyTrackpad turns your iPhone or iPad into a wireless trackpad and keyboard for your Mac.\n\n• Real multi-touch gestures: move, tap to click, two-finger right-click, two-finger scroll, pinch to zoom, and double-tap-and-hold to drag.\n• Built-in keyboard, arrow keys and quick-function buttons (brightness, volume, media, Mission Control, Spotlight, dictation).\n• Automatic discovery over Bonjour, plus a manual-IP fallback for networks where discovery is blocked.\n• Native, minimal Liquid Glass design for iOS 26.\n\nRequires the free companion app \"MyTrackpad Server\" running on your Mac (macOS 26+). Get it from the GitHub releases page.",
+      "iconURL": "https://raw.githubusercontent.com/Drakonis96/mytrackpad/main/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
+      "tintColor": "#5E5CE6",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "buildVersion": "2",
+          "date": "2026-06-06",
+          "localizedDescription": "Maintenance release.\n\n• Fixes the macOS server failing to open (Gatekeeper “damaged”) and not appearing in the Accessibility list, by documenting a quarantine-free install (curl one-liner) and shipping a signed .zip.\n• Same iOS app; rebuilt as 1.0.1.",
+          "downloadURL": "https://github.com/Drakonis96/mytrackpad/releases/download/v1.0.1/MyTrackpad.ipa",
+          "size": 2016798,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "MyTrackpad finds your Mac on the local network to connect and control it as a trackpad."
+        }
+      }
+    },
+    {
+      "name": "Tesstats",
+      "bundleIdentifier": "com.tesstats.app",
+      "developerName": "Drakonis96",
+      "subtitle": "Read-only Tesla stats from your TeslaMate.",
+      "localizedDescription": "Tesstats is a beautiful, read-only stats app for your Tesla, powered by your own self-hosted TeslaMate server.\n\n• Live dashboard: battery, range, charging, climate, security, tire pressure, location.\n• Trips with maps and consumption.\n• Charging sessions with real charge curves (kW vs %SoC).\n• Battery health and degradation over time.\n• Rich statistics: trends, records, cost, CO2 saved, phantom drain, heatmap.\n• Home Screen & Lock Screen widgets, a charging Live Activity, and Siri shortcuts.\n• Notifications, multi-car, offline cache, encrypted backups, CSV/JSON/GPX export.\n\nTesstats is strictly read-only — it never sends any command to your car. It talks only to your own server (MQTT + TeslaMateApi), with everything encrypted by default.",
+      "iconURL": "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/icon.png",
+      "tintColor": "#B30333",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/02-dashboard.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/05-charging.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/04-trips.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/03-battery.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/06-settings.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.3",
+          "date": "2026-06-06",
+          "localizedDescription": "Themes & display polish:\n• New light theme alongside the default dark theme (Settings → Appearance).\n• Pick your accent color from 10 presets — it's applied across the whole app.\n• Activity heatmap now spans the full card width, so its left and right margins match.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.3/Tesstats.ipa",
+          "size": 1739372,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "0.1.2",
+          "date": "2026-06-06",
+          "localizedDescription": "Accurate trip maps:\n• Trip routes are now drawn from the real GPS positions recorded by TeslaMate, fetched per drive from TeslaMateApi — no more geocoding the address text.\n• Fixes maps that landed in the wrong place when a city name was ambiguous (e.g. Toledo, Spain resolving to Toledo, USA).\n• Elevation profiles now come from the actual drive trace too.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.2/Tesstats.ipa",
+          "size": 1697654,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-06-05",
+          "localizedDescription": "Connection robustness and clarity:\n• MQTT host now accepts a plain hostname — any scheme or path you paste is stripped automatically (fixes a DNS resolution error).\n• History API URL completes https:// if you omit it.\n• Unique MQTT client-id per connection prevents a reconnect loop that made the status flicker.\n• Clearer hints on the Server settings fields (host vs full URL).\n• Full Spanish and English localization with an in-app language selector.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.1/Tesstats.ipa",
+          "size": 1697313,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "0.1.0",
+          "date": "2026-06-05",
+          "localizedDescription": "Initial public release.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.0/Tesstats.ipa",
+          "size": 1694649,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "version": "0.1.3",
+      "versionDate": "2026-06-06",
+      "versionDescription": "Themes & display polish:\n• New light theme alongside the default dark theme (Settings → Appearance).\n• Pick your accent color from 10 presets — it's applied across the whole app.\n• Activity heatmap now spans the full card width, so its left and right margins match.",
+      "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.3/Tesstats.ipa",
+      "size": 1739372,
+      "minOSVersion": "18.0",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connects to your self-hosted TeslaMate server on your local network."
+        }
+      }
+    },
+    {
+      "name": "Nautilarr",
+      "bundleIdentifier": "com.drakonis96.nautilarr",
+      "developerName": "drakonis96",
+      "subtitle": "Self-hosted media services client",
+      "localizedDescription": "Nautilarr is an open-source client for managing self-hosted media services through their public REST APIs. Browse libraries, search and add titles, monitor download queues and server health — all from a native, adaptive interface for iPhone, iPad and Mac.",
+      "iconURL": "https://Drakonis96.github.io/nautilarr/icon.png",
+      "tintColor": "19C3E6",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+          "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.8",
+          "date": "2026-06-05",
+          "localizedDescription": "Nautilarr 0.1.8",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.8/Nautilarr-0.1.8.ipa",
+          "size": 18587525,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.7",
+          "date": "2026-06-05",
+          "localizedDescription": "Nautilarr 0.1.7",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.7/Nautilarr-0.1.7.ipa",
+          "size": 18590414,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.6",
+          "date": "2026-06-05",
+          "localizedDescription": "Nautilarr 0.1.6",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.6/Nautilarr-0.1.6.ipa",
+          "size": 17793236,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.5",
+          "date": "2026-06-05",
+          "localizedDescription": "Nautilarr 0.1.5",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.5/Nautilarr-0.1.5.ipa",
+          "size": 17770090,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.4",
+          "date": "2026-06-04",
+          "localizedDescription": "Nautilarr 0.1.4",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.4/Nautilarr-0.1.4.ipa",
+          "size": 14893917,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.3",
+          "date": "2026-06-03",
+          "localizedDescription": "Nautilarr 0.1.3",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.3/Nautilarr-0.1.3.ipa",
+          "size": 14773728,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.2",
+          "date": "2026-06-03",
+          "localizedDescription": "Nautilarr 0.1.2",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.2/Nautilarr-0.1.2.ipa",
+          "size": 14738336,
+          "minOSVersion": "16.0",
+          "appPermissions": {
+            "entitlements": [],
+            "privacy": {
+              "NSLocalNetworkUsageDescription": "Nautilarr connects to your self-hosted services on your local network.",
+              "NSFaceIDUsageDescription": "Nautilarr uses Face ID to protect SSH access and settings."
+            }
+          }
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-06-02",
+          "localizedDescription": "Nautilarr 0.1.1",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.1/Nautilarr-0.1.1.ipa",
+          "size": 14478040,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.1.0",
+          "date": "2026-06-02",
+          "localizedDescription": "Nautilarr 0.1.0",
+          "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.0/Nautilarr-0.1.0.ipa",
+          "size": 14387080,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "version": "0.1.8",
+      "versionDate": "2026-06-05",
+      "versionDescription": "Nautilarr 0.1.8",
+      "downloadURL": "https://github.com/Drakonis96/nautilarr/releases/download/v0.1.8/Nautilarr-0.1.8.ipa",
+      "size": 18587525
+    }
+  ],
+  "news": []
+}
