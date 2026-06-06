@@ -271,6 +271,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.4",
+          "buildVersion": "5",
+          "date": "2026-06-06",
+          "localizedDescription": "Editing in the page preview + responsive feedback.\n\n• Tapping a page now opens it full-screen with the full edit toolbar: rotate, color, size, OCR, process and delete — all on that page.\n• Color / size / process now run in the background with a progress indicator and a success haptic, so you can tell they're working (no more silent freeze).\n• Page changes reflect immediately in the viewer and grid.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.4/ScanKit.ipa",
+          "size": 2881129,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.3",
           "buildVersion": "4",
           "date": "2026-06-06",
