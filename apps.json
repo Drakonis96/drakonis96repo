@@ -271,6 +271,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.2",
+          "buildVersion": "3",
+          "date": "2026-06-06",
+          "localizedDescription": "Visual polish.\n\n• Fixed document and page thumbnails overlapping / overflowing their cells.\n• Removed the tiny status dots that looked like (un-tappable) buttons over each page.\n• Cleaner icon-based toolbars in the page editor (Add / Select / Export, and rotate / color / process / delete when selecting).\n• Clearer multi-select with checkmarks and Select All.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.2/ScanKit.ipa",
+          "size": 2800825,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.1",
           "buildVersion": "2",
           "date": "2026-06-06",
