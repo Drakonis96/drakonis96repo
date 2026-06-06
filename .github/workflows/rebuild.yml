@@ -5,9 +5,7 @@ name: Rebuild combined source
 # changes up and republishes the merged source via GitHub Pages.
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 min — adjust to taste
-  workflow_dispatch:          # manual "Run workflow" button for instant sync
+  workflow_dispatch:          # manual "Run workflow" button — sync on demand
 
 permissions:
   contents: write
