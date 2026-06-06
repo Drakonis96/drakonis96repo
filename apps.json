@@ -271,6 +271,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.0.3",
+          "buildVersion": "4",
+          "date": "2026-06-06",
+          "localizedDescription": "Color modes, scan sizes and safer trash.\n\n• Color / Grayscale / B&W now work reliably — pages keep a full-color source and re-derive non-destructively, so switching back to Color restores the original capture.\n• Scan size in Settings (Letter, A4, A5, A6, A3, Legal, Square…), default A4, plus your own custom sizes you can set as default.\n• Change page size in bulk on selected pages (like rotate and color).\n• Deleting from Trash now asks for confirmation.\n• Cleaner OCR indicator icon.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.3/ScanKit.ipa",
+          "size": 2854977,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.2",
           "buildVersion": "3",
           "date": "2026-06-06",
