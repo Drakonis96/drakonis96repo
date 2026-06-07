@@ -68,6 +68,14 @@
       ],
       "versions": [
         {
+          "version": "0.1.4",
+          "date": "2026-06-07",
+          "localizedDescription": "More from your TeslaMate data:\n• Battery health now uses TeslaMate's official calculation (capacity & range, new vs now).\n• Software update history — every firmware version with its install date.\n• Charging efficiency and the energy lost to charging.\n• Optional price per charging location for more accurate cost estimates.\n• Peak regeneration record, plus per-trip regen and usable battery.\n• Low tire-pressure warnings straight from the car.\n• Fixed the cost trend chart, and the weekday chart now starts on Monday.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.4/Tesstats.ipa",
+          "size": 1810955,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.1.3",
           "date": "2026-06-06",
           "localizedDescription": "Themes & display polish:\n• New light theme alongside the default dark theme (Settings → Appearance).\n• Pick your accent color from 10 presets — it's applied across the whole app.\n• Activity heatmap now spans the full card width, so its left and right margins match.",
@@ -100,11 +108,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.1.3",
-      "versionDate": "2026-06-06",
-      "versionDescription": "Themes & display polish:\n• New light theme alongside the default dark theme (Settings → Appearance).\n• Pick your accent color from 10 presets — it's applied across the whole app.\n• Activity heatmap now spans the full card width, so its left and right margins match.",
-      "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.3/Tesstats.ipa",
-      "size": 1739372,
+      "version": "0.1.4",
+      "versionDate": "2026-06-07",
+      "versionDescription": "More from your TeslaMate data:\n• Battery health now uses TeslaMate's official calculation (capacity & range, new vs now).\n• Software update history — every firmware version with its install date.\n• Charging efficiency and the energy lost to charging.\n• Optional price per charging location for more accurate cost estimates.\n• Peak regeneration record, plus per-trip regen and usable battery.\n• Low tire-pressure warnings straight from the car.\n• Fixed the cost trend chart, and the weekday chart now starts on Monday.",
+      "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.1.4/Tesstats.ipa",
+      "size": 1810955,
       "minOSVersion": "18.0",
       "appPermissions": {
         "entitlements": [],
@@ -270,6 +278,15 @@
       "category": "utilities",
       "screenshotURLs": [],
       "versions": [
+        {
+          "version": "1.0.6",
+          "buildVersion": "7",
+          "date": "2026-06-07",
+          "localizedDescription": "Working scan-mode switch + clearer color modes.\n\n• Scanner: Auto / Manual / Double are now always-visible buttons that switch instantly (the old hidden menu felt unresponsive). “Double” captures a book/magazine spread and splits it into two pages; picking “Auto” always works even if auto-capture was set to Off.\n• Color modes verified: Color is the original photo, B&W is adaptive monochrome, and Grayscale is now its own gentler look — clean page with the gray tones preserved, not a hard black & white.\n• Combining or duplicating pages now keeps the full-color source, so switching a page back to Color still restores the original capture.\n• Image export (JPEG/PNG/TIFF) now honors the chosen Resolution (DPI).\n• Adding pages to an already-open document no longer opens a duplicate screen.",
+          "downloadURL": "https://github.com/Drakonis96/scankit/releases/download/v1.0.6/ScanKit.ipa",
+          "size": 2889686,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.0.5",
           "buildVersion": "6",
