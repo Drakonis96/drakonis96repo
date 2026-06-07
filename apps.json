@@ -402,6 +402,46 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.5",
+          "date": "2026-06-07",
+          "localizedDescription": "Seguridad del login de la app: rate limiting anti fuerza bruta, cabeceras de seguridad y secreto JWT robusto. El cascarón web queda protegido (página de login server-side). La app nativa no cambia su uso.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.5/HiperTracker.ipa",
+          "size": 2455934,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1.4",
+          "date": "2026-06-07",
+          "localizedDescription": "Login propio de la app: en Conectar activa 'Login de la app' e introduce usuario y contraseña. Alternativa al Basic Auth del proxy que evita los diálogos repetidos del navegador.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.4/HiperTracker.ipa",
+          "size": 2455935,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1.3",
+          "date": "2026-06-07",
+          "localizedDescription": "Se elimina el service worker (incompatible con Basic Auth + CDN): arregla las peticiones repetidas de credenciales y el bucle de recargas al iniciar sesión.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.3/HiperTracker.ipa",
+          "size": 2440624,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1.2",
+          "date": "2026-06-07",
+          "localizedDescription": "Arreglo de las peticiones repetidas de Basic Auth tras un reverse proxy / CDN: manifest con crossorigin=use-credentials y service worker servido sin caché.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.2/HiperTracker.ipa",
+          "size": 2440625,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-06-07",
+          "localizedDescription": "Arreglos: 'Cambiar de perfil' abre siempre la selección de perfiles y el service worker deja de provocar peticiones repetidas de Basic Auth tras un reverse proxy.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.1/HiperTracker.ipa",
+          "size": 2440625,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.0",
           "date": "2026-06-07",
           "localizedDescription": "Primera versión de HiperTracker para iOS, iPadOS y macOS.",
