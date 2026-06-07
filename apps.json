@@ -2,7 +2,7 @@
   "name": "Drakonis96",
   "identifier": "com.drakonis96.source",
   "subtitle": "All of Drakonis96's apps in one place.",
-  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr, ScanKit and anything new that lands here.",
+  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr, ScanKit, Tempo and anything new that lands here.",
   "iconURL": "https://drakonis96.github.io/drakonis96repo/repologo.png",
   "website": "https://github.com/Drakonis96/drakonis96repo",
   "tintColor": "5E5CE6",
@@ -10,7 +10,8 @@
     "com.drakonis96.mytrackpad",
     "com.tesstats.app",
     "com.drakonis96.nautilarr",
-    "com.scankit.ScanKit"
+    "com.scankit.ScanKit",
+    "com.tempo.app"
   ],
   "apps": [
     {
@@ -349,6 +350,34 @@
           "NSPhotoLibraryUsageDescription": "ScanKit imports images from your photo library to turn them into documents.",
           "NSPhotoLibraryAddUsageDescription": "ScanKit saves exported scans to your photo library."
         }
+      }
+    },
+    {
+      "name": "Tempo",
+      "bundleIdentifier": "com.tempo.app",
+      "developerName": "Drakonis96",
+      "subtitle": "Rhythm, consistency and calm progress.",
+      "localizedDescription": "Tempo is a minimalist habit and daily-activity tracker designed to actively encourage you to get things done.\n\n• Daily goal that resets every day\n• Habits with a 150+ icon library or custom emoji, accent color, weekday frequency, time of day and local reminders\n• Two completion modes: tap to complete, or a timer (countdown/stopwatch) that fires a local alert and auto-completes\n• Today view with a progress ring and live timer countdowns\n• Schedule (hourly) view showing from what time to what time things are planned\n• Weekly view with per-day completion and today highlight\n• Native widgets (small / medium / large) with live timers\n• Liquid Glass, light & dark mode, English & Spanish, fully local (no account, no network)",
+      "iconURL": "https://raw.githubusercontent.com/drakonis96/tempo/main/logo.png",
+      "tintColor": "#FF2D6B",
+      "category": "lifestyle",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-06-07",
+          "localizedDescription": "First release of Tempo.",
+          "downloadURL": "https://github.com/drakonis96/tempo/releases/download/v0.1.0/Tempo.ipa",
+          "size": 1562212,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
       }
     }
   ],

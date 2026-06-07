@@ -27,3 +27,4 @@ Or tap to add directly:
 | **Tesstats** | Read-only Tesla stats from your own self-hosted TeslaMate. | [Drakonis96/tesstats](https://github.com/Drakonis96/tesstats) |
 | **Nautilarr** | Client for managing self-hosted media services from their REST APIs. | [Drakonis96/nautilarr](https://github.com/Drakonis96/nautilarr) |
 | **ScanKit** | On-device document scanner: capture, process, OCR, organize and export. | [Drakonis96/scankit](https://github.com/Drakonis96/scankit) |
+| **Tempo** | Minimalist habit & daily-activity tracker — rhythm, consistency and calm progress. | [Drakonis96/tempo](https://github.com/Drakonis96/tempo) |
