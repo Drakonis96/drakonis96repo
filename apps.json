@@ -2,7 +2,7 @@
   "name": "Drakonis96",
   "identifier": "com.drakonis96.source",
   "subtitle": "All of Drakonis96's apps in one place.",
-  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr, ScanKit, Tempo, HiperTracker and anything new that lands here.",
+  "description": "The official AltStore/SideStore source for all of Drakonis96's apps. Add this source once to install and auto-update MyTrackpad, Tesstats, Nautilarr, ScanKit, Tempo, HiperTracker, PaperQueue and anything new that lands here.",
   "iconURL": "https://drakonis96.github.io/drakonis96repo/repologo.png",
   "website": "https://github.com/Drakonis96/drakonis96repo",
   "tintColor": "5E5CE6",
@@ -12,7 +12,8 @@
     "com.drakonis96.nautilarr",
     "com.scankit.ScanKit",
     "com.tempo.app",
-    "com.hipertracker.app"
+    "com.hipertracker.app",
+    "com.paperqueue.app"
   ],
   "apps": [
     {
@@ -402,6 +403,22 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.1.11",
+          "date": "2026-06-08",
+          "localizedDescription": "Compartir listas con perfiles concretos: además de 'personal' y 'con todos', ahora puedes elegir qué perfiles ven cada lista. El administrador puede editar la compartición de cualquier lista.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.11/HiperTracker.ipa",
+          "size": 2484465,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1.10",
+          "date": "2026-06-08",
+          "localizedDescription": "Sección Tiendas: ahora se muestran primero los supermercados y después las demás tiendas, y se añade un buscador para encontrar tiendas rápidamente.",
+          "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.10/HiperTracker.ipa",
+          "size": 2475681,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.9",
           "date": "2026-06-08",
           "localizedDescription": "Arreglo: al editar un producto y cambiar de tienda, el cambio ya se guarda correctamente en iOS/iPadOS/macOS (antes se descartaba al volver del selector de tiendas). Crear, editar y eliminar funcionan con fiabilidad.",
@@ -479,6 +496,32 @@
           "localizedDescription": "Primera versión de HiperTracker para iOS, iPadOS y macOS.",
           "downloadURL": "https://github.com/Drakonis96/hipertracker/releases/download/v0.1.0/HiperTracker.ipa",
           "size": 2440623,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "PaperQueue",
+      "bundleIdentifier": "com.paperqueue.app",
+      "developerName": "Drakonis96",
+      "subtitle": "Read more of your Zotero library, with less friction.",
+      "localizedDescription": "PaperQueue turns your Zotero library into a focused, curated reading queue. Build a queue, mark papers as read, reorder by priority, search and add by DOI, and browse collections — all synced through Zotero tags so it works across your devices. On iPhone/iPad it's a companion for managing your queue; read the PDFs on your Mac in Zotero.\n\nThis build is unsigned — install it with AltStore/SideStore, which re-signs it with your own Apple ID.",
+      "iconURL": "https://raw.githubusercontent.com/Drakonis96/paperqueue/main/logo.png",
+      "tintColor": "0A84FF",
+      "category": "productivity",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-06-10",
+          "localizedDescription": "First public build: curated reading queue via Zotero tags, library search & filters, collection browsing, add-by-DOI, history and stats.",
+          "downloadURL": "https://github.com/Drakonis96/paperqueue/releases/download/v0.1.0/PaperQueue-unsigned.ipa",
+          "size": 1429501,
           "minOSVersion": "17.0"
         }
       ],

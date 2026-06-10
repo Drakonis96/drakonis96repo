@@ -29,3 +29,4 @@ Or tap to add directly:
 | **ScanKit** | On-device document scanner: capture, process, OCR, organize and export. | [Drakonis96/scankit](https://github.com/Drakonis96/scankit) |
 | **Tempo** | Minimalist habit & daily-activity tracker — rhythm, consistency and calm progress. | [Drakonis96/tempo](https://github.com/Drakonis96/tempo) |
 | **HiperTracker** | Shopping-list manager that connects to your own self-hosted HiperTracker server. | [Drakonis96/hipertracker](https://github.com/Drakonis96/hipertracker) |
+| **PaperQueue** | Focused reading queue companion for your Zotero library. | [Drakonis96/paperqueue](https://github.com/Drakonis96/paperqueue) |
