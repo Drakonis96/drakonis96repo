@@ -516,6 +516,33 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.7.0",
+          "buildVersion": "11",
+          "date": "2026-06-11",
+          "localizedDescription": "• Pages read — Stats now estimates pages from Zotero page ranges (e.g. 134–136 = 2, abbreviated 134–36 too): pages today / this week, total pages, a pages-per-week chart, and averages for both works and pages per active day.\n• macOS: fixed drag-to-reorder in the Queue (a tap gesture was swallowing the drag), and the right-click menu now offers every action — mark read, read later, skip, remove, open, move to position and move to queue — alongside the visible buttons.",
+          "downloadURL": "https://github.com/Drakonis96/paperqueue/releases/download/v1.7.0/PaperQueue-unsigned.ipa",
+          "size": 1477777,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.6.0",
+          "buildVersion": "10",
+          "date": "2026-06-11",
+          "localizedDescription": "• Authors and editors are both shown now — an edited book or chapter that lists editors no longer hides the actual author. Editors are labelled (e.g. \"ed.\"), and you can filter by either.\n• New on Mac: Settings → Updates → \"Check for Updates\" downloads the latest version from GitHub, replaces the app and relaunches it automatically (falls back to opening the disk image if it can't).",
+          "downloadURL": "https://github.com/Drakonis96/paperqueue/releases/download/v1.6.0/PaperQueue-unsigned.ipa",
+          "size": 1470552,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.5.2",
+          "buildVersion": "9",
+          "date": "2026-06-11",
+          "localizedDescription": "More macOS polish and fixes:\n• Library filters and Collections now open at a proper size — the author/tag/year lists and collection contents load instead of appearing empty.\n• Settings no longer looks cramped; it uses a clean grouped layout.\n• Clicking a paper selects it instantly — the previous selection lag is gone (double-click still opens it).\n• The Library now shows the sync progress bar while refreshing, like the Queue.\n• Bigger, hover-highlighted row action buttons with better spacing.",
+          "downloadURL": "https://github.com/Drakonis96/paperqueue/releases/download/v1.5.2/PaperQueue-unsigned.ipa",
+          "size": 1467517,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.5.1",
           "buildVersion": "8",
           "date": "2026-06-11",
