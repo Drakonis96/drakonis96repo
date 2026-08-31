@@ -71,6 +71,14 @@
       ],
       "versions": [
         {
+          "version": "0.4.0",
+          "date": "2026-08-31",
+          "localizedDescription": "## Qué cambia\n\n- Nueva interfaz adaptativa inspirada en Tesla para iPhone, iPad y Mac.\n- Pantalla del conductor configurable en vertical y horizontal con velocidad, marcha, potencia y regeneración, aceleración y frenada estimadas, batería, autonomía, alertas, ruta activa y mini mapa.\n- Presets, módulos reordenables, temas, tamaño de velocidad, ancho del mapa, brillo activo y ajustes rápidos.\n- Navegación y paneles refinados, modo demo ampliado y localización en inglés y español.\n- La ruta usa únicamente los datos reales de active_route disponibles en TeslaMate; nunca inventa indicaciones.\n- Tesstats continúa siendo completamente de solo lectura y no envía comandos al vehículo.\n\n## Distribución\n\n- Tesstats.ipa: paquete sin firma para AltStore, iOS/iPadOS 18 o posterior, con widgets incluidos. La app de Watch se omite porque los sideloaders no pueden provisionarla.\n- Tesstats-macOS.dmg: app universal arm64 y x86_64 para macOS 15 o posterior, con firma ad-hoc.\n\n## Verificación\n\n- 51 pruebas unitarias y 4 pruebas de interfaz superadas.\n- Builds Release de iOS y macOS completados y artefactos validados.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.4.0/Tesstats.ipa",
+          "size": 3071642,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.1",
           "date": "2026-08-30",
           "localizedDescription": "Tesstats 0.3.1 removes the remaining loading stalls and makes every configurable section fully rearrangeable.\n\n### Loading stays responsive\n- Cache reads, JSON decoding, history aggregation and widget lookups stay off the main thread.\n- Cached history remains interactive while fresher server data arrives.\n- Large GPS traces are sampled before reaching MapKit, camera updates are debounced, and trip previews avoid repeated full-path scans.\n- Parking derivation now scales linearly across drives and charges, with paginated rendering for long histories.\n\n### Every section is yours\n- Lists, filters, maps, totals and header cards can all be hidden or restored.\n- Previously fixed Dashboard cards and the Stats date filter now participate in the saved layout.\n- Parking has its own complete layout editor.\n- Blocks can be moved with drag handles or explicit up/down controls, with stable accessibility identifiers.\n\n### Verified\n- 46 unit tests and the hide/reorder UI test pass.\n- iOS and macOS builds compile successfully.\n\nSideload the attached Tesstats.ipa with AltStore or SideStore. The IPA is unsigned so AltStore can sign it, includes the widget, and omits the Watch app because AltStore cannot provision it. Requires iOS 18.",
@@ -159,11 +167,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.1",
-      "versionDate": "2026-08-30",
-      "versionDescription": "Tesstats 0.3.1 removes the remaining loading stalls and makes every configurable section fully rearrangeable.\n\n### Loading stays responsive\n- Cache reads, JSON decoding, history aggregation and widget lookups stay off the main thread.\n- Cached history remains interactive while fresher server data arrives.\n- Large GPS traces are sampled before reaching MapKit, camera updates are debounced, and trip previews avoid repeated full-path scans.\n- Parking derivation now scales linearly across drives and charges, with paginated rendering for long histories.\n\n### Every section is yours\n- Lists, filters, maps, totals and header cards can all be hidden or restored.\n- Previously fixed Dashboard cards and the Stats date filter now participate in the saved layout.\n- Parking has its own complete layout editor.\n- Blocks can be moved with drag handles or explicit up/down controls, with stable accessibility identifiers.\n\n### Verified\n- 46 unit tests and the hide/reorder UI test pass.\n- iOS and macOS builds compile successfully.\n\nSideload the attached Tesstats.ipa with AltStore or SideStore. The IPA is unsigned so AltStore can sign it, includes the widget, and omits the Watch app because AltStore cannot provision it. Requires iOS 18.",
-      "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.3.1/Tesstats.ipa",
-      "size": 1888306,
+      "version": "0.4.0",
+      "versionDate": "2026-08-31",
+      "versionDescription": "## Qué cambia\n\n- Nueva interfaz adaptativa inspirada en Tesla para iPhone, iPad y Mac.\n- Pantalla del conductor configurable en vertical y horizontal con velocidad, marcha, potencia y regeneración, aceleración y frenada estimadas, batería, autonomía, alertas, ruta activa y mini mapa.\n- Presets, módulos reordenables, temas, tamaño de velocidad, ancho del mapa, brillo activo y ajustes rápidos.\n- Navegación y paneles refinados, modo demo ampliado y localización en inglés y español.\n- La ruta usa únicamente los datos reales de active_route disponibles en TeslaMate; nunca inventa indicaciones.\n- Tesstats continúa siendo completamente de solo lectura y no envía comandos al vehículo.\n\n## Distribución\n\n- Tesstats.ipa: paquete sin firma para AltStore, iOS/iPadOS 18 o posterior, con widgets incluidos. La app de Watch se omite porque los sideloaders no pueden provisionarla.\n- Tesstats-macOS.dmg: app universal arm64 y x86_64 para macOS 15 o posterior, con firma ad-hoc.\n\n## Verificación\n\n- 51 pruebas unitarias y 4 pruebas de interfaz superadas.\n- Builds Release de iOS y macOS completados y artefactos validados.",
+      "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.4.0/Tesstats.ipa",
+      "size": 3071642,
       "minOSVersion": "18.0",
       "appPermissions": {
         "entitlements": [],
