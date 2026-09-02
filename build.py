@@ -16,7 +16,6 @@ import urllib.request
 # Upstream sources, one per app, scattered across GitHub.
 SOURCES = [
     "https://raw.githubusercontent.com/Drakonis96/mytrackpad/main/source.json",
-    "https://raw.githubusercontent.com/Drakonis96/tesstats/main/altstore.json",
     "https://drakonis96.github.io/nautilarr/apps.json",
     "https://raw.githubusercontent.com/Drakonis96/scankit/main/source.json",
     "https://raw.githubusercontent.com/drakonis96/tempo/main/AltStore/apps.json",
@@ -31,15 +30,14 @@ SOURCE = {
     "subtitle": "All of Drakonis96's apps in one place.",
     "description": (
         "The official AltStore/SideStore source for all of Drakonis96's apps. "
-        "Add this source once to install and auto-update MyTrackpad, Tesstats, "
-        "Nautilarr, ScanKit, Tempo, HiperTracker, PaperQueue and anything new that lands here."
+        "Add this source once to install and auto-update MyTrackpad, Nautilarr, "
+        "ScanKit, Tempo, HiperTracker, PaperQueue and anything new that lands here."
     ),
     "iconURL": "https://drakonis96.github.io/drakonis96repo/repologo.png",
     "website": "https://github.com/Drakonis96/drakonis96repo",
     "tintColor": "5E5CE6",
     "featuredApps": [
         "com.drakonis96.mytrackpad",
-        "com.tesstats.app",
         "com.drakonis96.nautilarr",
         "com.scankit.ScanKit",
         "com.tempo.app",
